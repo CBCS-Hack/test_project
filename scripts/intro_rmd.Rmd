@@ -1,0 +1,26 @@
+---
+title: "rmd_intro"
+author: "Rich Cottrell"
+date: "11/04/2022"
+output: html_document
+---
+
+Libaries
+```{r setup, include=FALSE}
+library(tidyverse)
+library(janitor)
+
+source(here("src/directories.R"))
+
+
+
+
+```
+
+You can put descriptions here even write your paper in rmd files. But lots of detail to dig into for markdowns which we can go through at a later date. 
+```{r}
+
+mtcars #dataframes can output in the middle of your code so you can go through it easily. 
+```
+
+
